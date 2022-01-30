@@ -1,9 +1,5 @@
-
 graphql:
-  tools:
-    schema-location-pattern: "**/*.graphqls"
-  playground:
-    enabled: true
-  servlet:
-    max-query-depth: 5
-    exception-handlers-enabled: true
+  graphiql:
+    cdn:
+      enabled: false
+      version: latest
